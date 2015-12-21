@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Nymi Terminal Example</string>
+    <string name="activity_terminal_unauthorized">Unauthorized user</string>
+    <string name="no_band_found">No Nymi band found</string>
+    
+</resources>

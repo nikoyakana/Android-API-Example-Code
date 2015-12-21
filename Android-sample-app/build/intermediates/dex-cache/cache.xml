@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/exploded-aar/NymiReferenceApp/nymi-api-nymulator/unspecified/jars/libs/Ncl.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7b8fbc588196456c7e54f159bffdb7f2bb6c84b8">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/pre-dexed/debug/Ncl-8386aea1d279a9983082e3e673a6a6946c6755e3.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-f0e73b4e16f87b310400a5e2c4f2fcc49bc9a757.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/exploded-aar/NymiReferenceApp/nymi-api-nymulator/unspecified/jars/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/pre-dexed/debug/gson-2.3.1-5d8339f94795e0f5e375c568fa717dee835813f9.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/exploded-aar/NymiReferenceApp/nymi-api-nymulator/unspecified/jars/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/pre-dexed/debug/gson-2.3.1-43d2bb6695eceda87dde3146d0846fe37518f5ac.jar" />
+    </item>
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.3.4/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-4cd7bd1be56baa5f8cf0d590be58bc6b3b942e2b.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/exploded-aar/NymiReferenceApp/nymi-api-nymulator/unspecified/jars/libs/Ncl.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7b8fbc588196456c7e54f159bffdb7f2bb6c84b8">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/pre-dexed/debug/Ncl-b6a2f636208d8f76af16a8e51339f47a18792666.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-04142996552d4f369cd926bc7d4fcd7eebbca9f0.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/pre-dexed/debug/classes-01080df8725d7efd6a9c727da56157f3a7a084a3.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/pre-dexed/debug/classes-8f1de43e33e7d659f4a1449c8c66850e23a22bd8.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/exploded-aar/NymiReferenceApp/nymi-api-nymulator/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="94bfcee32abe7ec63448a6aa831847f1034f2507">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/pre-dexed/debug/classes-caf7691f8e09bc5091618dee01e80d6acb743fd1.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceterminal/build/intermediates/pre-dexed/debug/classes-d9317d34c84e45faed9cd7342f8148af5dea44b2.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/exploded-aar/NymiReferenceApp/nymi-api-nymulator/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="94bfcee32abe7ec63448a6aa831847f1034f2507">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/pre-dexed/debug/classes-c7360a389fd1b908fb6f2b0d56db4e19765e1432.jar" />
+    </item>
+    <item
+        jar="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/buildslave/bslaves/pm.corp.bionym.com/example-android/build-example-android/examples-api/NymiReferenceApp/nymireferenceapp/build/intermediates/pre-dexed/debug/classes-b853a3a02089cae06f1ff9314d56e7b7f73af9ba.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
+<title>
+
+  NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus
+
+
+</title>
+<link href="../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../", "../../../../assets/");
+</script>
+<script src="../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="">
+
+<div id="header">
+    <div id="headerLeft">
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../')"
+                      onkeyup="return search_changed(event, false, '../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links">
+                <a href="../../../packages.html"  >Package Index</a> | 
+                <a href="../../../classes.html" >Class Index</a>
+              </div>
+              <ul>
+                
+    <li class="selected api apilevel-">
+  <a href="../../../com/nymi/api/package-summary.html">com.nymi.api</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.AgreementCallback.html">NymiAdapter.AgreementCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.DeviceApproachedCallback.html">NymiAdapter.DeviceApproachedCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.DeviceDetectedCallback.html">NymiAdapter.DeviceDetectedCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundCallback.html">NymiAdapter.DeviceFoundCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.html">NymiAdapter.DeviceFoundStatusChangeCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.DevicePresenceChangeCallback.html">NymiAdapter.DevicePresenceChangeCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.DiscoveryModeChangeCallback.html">NymiAdapter.DiscoveryModeChangeCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.FirmwareVersionCallback.html">NymiAdapter.FirmwareVersionCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.InitCallback.html">NymiAdapter.InitCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.NewAdvNonceCallback.html">NymiAdapter.NewAdvNonceCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.NewProvisionCallback.html">NymiAdapter.NewProvisionCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.PartnerVerifiedCallback.html">NymiAdapter.PartnerVerifiedCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.ProximityEstimateChangeCallback.html">NymiAdapter.ProximityEstimateChangeCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.DeviceInfoCallback.html">NymiProvision.DeviceInfoCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.NotificationCallback.html">NymiProvision.NotificationCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.PartnerAddedCallback.html">NymiProvision.PartnerAddedCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.RandomCallback.html">NymiProvision.RandomCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.SignCallback.html">NymiProvision.SignCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.SymmetricKeyCallback.html">NymiProvision.SymmetricKeyCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.TotpGetCallback.html">NymiProvision.TotpGetCallback</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.TotpSetKeyCallback.html">NymiProvision.TotpSetKeyCallback</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.html">NymiAdapter</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiDeviceInfo.html">NymiDeviceInfo</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.html">NymiProvision</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiPublicKey.html">NymiPublicKey</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiRandomNumber.html">NymiRandomNumber</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiSymmetricKey.html">NymiSymmetricKey</a></li>
+      </ul>
+    </li>
+              
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="selected api apilevel-"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiDeviceInfo.PresenceState.html">NymiDeviceInfo.PresenceState</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.Notification.html">NymiProvision.Notification</a></li>
+          <li class="api apilevel-"><a href="../../../com/nymi/api/NymiProvision.ProximityState.html">NymiProvision.ProximityState</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links">
+            <a href="../../../packages.html"  >Package Index</a> | 
+            <a href="../../../classes.html" >Class Index</a>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+  
+   
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+  <a href="#enumconstants">Enums</a>
+  
+
+
+
+
+
+
+
+
+  &#124; <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+    static 
+    final 
+    
+    enum
+<h1>NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</h1>
+
+
+
+  
+  
+  
+
+  
+    extends Enum&lt;E&nbsp;extends&nbsp;Enum&lt;E&gt;&gt;<br/>
+  
+  
+  
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="3" class="jd-inheritance-class-cell">java.lang.Object</td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell">java.lang.Enum&lt;E&nbsp;extends&nbsp;java.lang.Enum&lt;E&gt;&gt;</td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;</td>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.nymi.api.NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>All possible found states
+</p>
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="enumconstants" class="jd-sumtable"><tr><th colspan="12">Enum Values</th></tr>
+
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-descrcol"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>&nbsp;</td>
+        <td class="jd-linkcol">ANONYMOUS&nbsp;</td>
+        <td class="jd-descrcol" width="100%">this NymiAdapter has not provisioned this device
+&nbsp;</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-descrcol"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>&nbsp;</td>
+        <td class="jd-linkcol">AUTHENTICATED&nbsp;</td>
+        <td class="jd-descrcol" width="100%">nymi band is provisioned and the provision has been confirmed.&nbsp;</td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-descrcol"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>&nbsp;</td>
+        <td class="jd-linkcol">IDENTIFIED&nbsp;</td>
+        <td class="jd-descrcol" width="100%">nymi band is provisioned, however the provision has not been confirmed yet.&nbsp;</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-descrcol"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>&nbsp;</td>
+        <td class="jd-linkcol">PROVISIONING&nbsp;</td>
+        <td class="jd-descrcol" width="100%">nymi band is provisioned and the API is receiving found events, *but* the found events are not strong
+&nbsp;</td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-descrcol"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>&nbsp;</td>
+        <td class="jd-linkcol">UNCLASPED&nbsp;</td>
+        <td class="jd-descrcol" width="100%">nymi band has been unclasped
+&nbsp;</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-descrcol"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>&nbsp;</td>
+        <td class="jd-linkcol">UNDETECTED&nbsp;</td>
+        <td class="jd-descrcol" width="100%">nymi band is undetected.&nbsp;</td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-descrcol"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>&nbsp;</td>
+        <td class="jd-linkcol">UNPROVISIONABLE&nbsp;</td>
+        <td class="jd-descrcol" width="100%">usually because the nymi band already has six provisions and so has no room for more
+&nbsp;</td>
+    </tr>
+    
+    
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html#valueOf(java.lang.String)">valueOf</a></span>(String name)
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            static
+            
+            <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">FoundStatus[]</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html#values()">values</a></span>()
+        
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Enum" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Enum-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  java.lang.Enum
+
+<div id="inherited-methods-java.lang.Enum">
+  <div id="inherited-methods-java.lang.Enum-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Enum-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            int
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">compareTo</span>(E arg0)
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            int
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">compareTo</span>(Object arg0)
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            boolean
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">equals</span>(Object arg0)
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            Class&lt;E&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">getDeclaringClass</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            int
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">hashCode</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">name</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            int
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">ordinal</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">toString</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            &lt;T&nbsp;extends&nbsp;Enum&lt;T&gt;&gt;
+            T
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">valueOf</span>(Class&lt;T&gt; arg0, String arg1)
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  java.lang.Object
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            boolean
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">equals</span>(Object arg0)
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            Class&lt;?&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">getClass</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            int
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">hashCode</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">notify</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">notifyAll</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">toString</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">wait</span>(long arg0, int arg1)
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">wait</span>(long arg0)
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">wait</span>()
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Comparable" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Comparable-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From interface
+
+  java.lang.Comparable
+
+<div id="inherited-methods-java.lang.Comparable">
+  <div id="inherited-methods-java.lang.Comparable-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Comparable-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            abstract
+            
+            
+            
+            
+            int
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">compareTo</span>(T arg0)
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Enum Values</h2>
+
+
+
+
+<a id="ANONYMOUS"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+        ANONYMOUS
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>this NymiAdapter has not provisioned this device
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="AUTHENTICATED"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+        AUTHENTICATED
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>nymi band is provisioned and the provision has been confirmed.  This is the only state
+ that indicates the band has been authenticated.
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="IDENTIFIED"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+        IDENTIFIED
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>nymi band is provisioned, however the provision has not been confirmed yet. 
+ 
+ These nymi bands have not been authenticated and so NEAs that rely on authentication 
+ (e.g. unlock NEAs) should not accept these.
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="PROVISIONING"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+        PROVISIONING
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>nymi band is provisioned and the API is receiving found events, *but* the found events are not strong
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="UNCLASPED"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+        UNCLASPED
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>nymi band has been unclasped
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="UNDETECTED"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+        UNDETECTED
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>nymi band is undetected. Normally only applies to provisioned devices that are
+ no longer here
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="UNPROVISIONABLE"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+        UNPROVISIONABLE
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>usually because the nymi band already has six provisions and so has no room for more
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<a id="valueOf(java.lang.String)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus</a>
+      </span>
+      <span class="sympad">valueOf</span>
+      <span class="normal">(String name)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<a id="values()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+         
+         
+        <a href="../../../com/nymi/api/NymiAdapter.DeviceFoundStatusChangeCallback.FoundStatus.html">FoundStatus[]</a>
+      </span>
+      <span class="sympad">values</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<a id="navbar_top"></a>
+
+<div id="footer">
+Generated by <a href="http://code.google.com/p/doclava/">Doclava</a>.
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>
